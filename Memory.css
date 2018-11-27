@@ -1,0 +1,90 @@
+body
+{
+    background-color: gray;
+    color: #ffffff;
+}
+
+#contenaire
+{
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+h1
+{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 30px 30px 30px 30px;
+}
+
+#Chrono
+{
+    border-radius: 30px 30px 30px 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 600px;
+    margin: auto;
+    font-size: 22px;
+}
+
+.Timg
+{
+    width: 160px;
+    height: 160px;
+}
+
+.CartesRecto
+{
+
+    background-image: url("Up.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    border-radius: 20px 20px 20px 20px
+
+}
+
+.CartesVerso
+{
+    position: absolute;
+    left : 90px;
+}
+
+.CartesRecto, .CartesVerso
+{
+    width: 160px;
+    height: 160px;
+
+    border-radius: 20px 20px 20px 20px;
+    position: absolute;
+}
+
+.Cart
+{
+    display: inline-block;
+
+    padding: 10px;
+}
+
+
+
+
+#Tableau_Carte
+{
+    width: 800px;
+    height: 500px;
+
+    margin: 5px;
+    position: relative;
+}
+
+.front-face, .back-face
+{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    backface-visibility: hidden;
+    border: solid 2px #ff0300;
+}
+
