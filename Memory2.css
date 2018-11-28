@@ -9,7 +9,7 @@ body
 {
     display: flex;
     height: 100vh;
-    background-image: url("Font1.gif");
+    /* background-image: url("Font1.gif"); */
 
     background-repeat: no-repeat;
     background-size: 120%;
@@ -66,6 +66,7 @@ h1, .Chronos
     transform: rotateY(180deg);
 }
 
+/*
 .Recto, .Verso
 {
     width: 100%;
@@ -78,8 +79,61 @@ h1, .Chronos
     position: absolute;
     backface-visibility: hidden;
 }
+*/
+
+/*
+.imgs
+{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+
+    border-radius: 30px;
+    border: solid 2px #ffff00;
+
+    position: absolute;
+    backface-visibility: hidden;
+}
+*/
 
 .Recto
 {
     transform: rotateY(180deg);
 }
+
+
+#test {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    transform-origin: 50% 50%;
+}
+
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.rotating {
+    -webkit-animation: rotating 2s linear infinite;
+}
+
+
+.tailleBouton_Start
+{
+    width: 130px;
+    height: 30px;
+    background-color: cornflowerblue;
+}
+
+.tailleBouton_RaZ
+{
+    width: 150px;
+    height: 30px;
+    background-color: lightgreen;
+}
+
