@@ -11,111 +11,38 @@
     <h1>Jeu - Mémory</h1> <br>
 
     <!-- Début Chrono -->
+    <!--
     <div id="Chrono" class="Chronos">
         <div id="TextChrono">Temps Joué : </div>
         <div id="AfficheChrono"></div>
     </div>
+    -->
     <!-- Fin Chrono -->
 
-    <br>
+        <!-- Debut Bouton Reset -->
+            <!-- <button id="Start" class="tailleBouton_Start">Démarrer la partie</button> -->
+        <!-- Fin Bouton Reset -->
 
-    <!-- Debut Bouton Reset -->
-    <button id="Start" class="tailleBouton_Start">Démarrer la partie</button>
+        <!-- Debut Bouton Reset -->
+            <button id="reset" class="tailleBouton_RaZ" onclick="document.location.reload(false)">Remise à Zéro</button>
+            <!-- <button id="reset" class="tailleBouton_RaZ">Remise à Zéro</button> -->
+
     <!-- Fin Bouton Reset -->
 
-    <!-- Debut Bouton Reset -->
-    <button id="reset" class="tailleBouton_RaZ">Remise à Zéro</button>
-    <!-- Fin Bouton Reset -->
+        <br><br>
+
+        <!-- Début Tableau des Cartes généré via le JS -->
+            <div id="Tabl_Carte" style="display: block;"></div>
+        <!-- Fin Tableau des Cartes -->
 
 
-    <br>
-
-    <!-- Début Tableau des Cartes généré via le JS -->
-    <div id="Tabl_Carte">
-
-<!--
-        <div id="img0" class="Cart">
-            <img src="Up.png"/>
-
-        </div>
-
-        <div id="img1" class="Cart">
-            <img src="Up.png"/>
-
-        </div>
-
-        <div id="img2" class="Cart">
-            <img src="Up.png"/>
-
-        </div>
-
-        <div id="img3" class="Cart">
-            <img src="Up.png"/>
-
-        </div>
-
-        <div id="img4" class="Cart">
-            <img src="Up.png"/>
-
-        </div>
-
-        <div id="img5" class="Cart">
-            <img src="Up.png"/>
-
-        </div>
-
-        <div id="img6" class="Cart">
-            <img src="Up.png"/>
-
-        </div>
-
-        <div id="img7" class="Cart">
-            <img src="Up.png"/>
-
-        </div>
-
-        <div id="img8" class="Cart">
-            <img src="Up.png"/>
-
-        </div>
-
-        <div id="img9" class="Cart">
-            <img src="Up.png"/>
-
-        </div>
-
-        <div id="img10" class="Cart">
-            <img src="Up.png"/>
-
-        </div>
-
-        <div id="img11" class="Cart">
-            <img src="Up.png"/>
-
-        </div>
--->
-
-    </div>
-    <!-- Fin Tableau des Cartes -->
+        <!-- Début fenetre résultat -->
+            <div id="Resultat"></div>
+        <!-- Fin fenetre résultat -->
 
 
-
-
-
-
-
-
-
-<!--
-    <iframe src="jeu.html"
-            width="900"
-            height="500"
-            style="border:0px solid orange">
-    </iframe>
--->
 
 </div>
-
 <script src="Memory.js"></script>
 </body>
 </html>
