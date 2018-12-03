@@ -26,7 +26,8 @@ function shuffleArray(array)
             }
     }
 
-/* Debut Creation des tableaux + Melange des cartes */
+/* Debut Creation des tableaux + Melange des cartes
+* (Debut Creation of the tables + Melange of the cards) */
 let Cartes = [
     "img_memory/CSS.png",
     "img_memory/CSS.png",
@@ -47,7 +48,7 @@ let Cartes = [
     "img_memory/WordPress.png"
 ];
 
-shuffleArray(Cartes); // Mélange des cartes
+shuffleArray(Cartes); // Mélange des cartes (Mix of cards)
 /* Fin Creation des tableaux + Melange des cartes */
 
 let recto = document.getElementsByTagName('img');
@@ -59,12 +60,12 @@ for (let i = 0; i < Cartes.length; i++)
         div.className = "Cart";
         div.id = 'div' + i;
 
-        /* ci-dessous class des images */
+        /* ci-dessous class des divs (below class divs) */
         div.style.display = "inline-block";
 
 
         let img = document.createElement("img");
-        /* ci-dessous class des images */
+        /* ci-dessous class des images (Below pictures class) */
         img.style.width = "100%";
         img.style.height = "100%";
         img.style.padding = "0px";
@@ -76,11 +77,11 @@ for (let i = 0; i < Cartes.length; i++)
         document.getElementById("Tabl_Carte").appendChild(div);
         div.appendChild(img);
 
-        //clique sur toutes les cartes (div)
+        //clique sur toutes les cartes (div) (click on all cards)
         document.getElementById('img' + i).addEventListener("click", function () {
             document.getElementById('img' + i).src = Cartes[i];
 
-            //comparaison des cartes
+            //comparaison des cartes (card comparison)
             // if = si | else = simon
 
             //if (CartId1 != CartId2)
